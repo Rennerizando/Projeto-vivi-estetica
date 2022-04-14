@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+    font-family: 'century gothic';
+    
+}
+header{
+    height: 9vh;
+    background-color: rgb(160, 24, 24);
+}
+
+.img-logo{
+    width: 100px;
+
+}
+nav ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 65rem;
+    margin-top: -3rem;
+    
+}
+
+li{   
+
+ margin-left: 35px;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(255, 196, 0);
+    height: 30vh;
+   
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 3vw 0 5vw;
+}
+.caixa h2{
+    color: black;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.caixa p{
+    color: rgb(53, 53, 53);
+    padding-top: 20px;
+    text-align: left;
+   
+}
+
+footer{
+    display: flex;
+    height: 60vh;
+    background-color: azure;
+}
+
+.logo-footer{
+    
+    width: 30%;
+ 
+}
+
+.logo-footer img{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    margin: 25% 25%;
+}
+
+.contato-rodape{
+    text-align: right;
+    margin-right: 10rem;
+    width: 70%;
+}
+
+.texto-rodepe{
+    margin-top: 2rem;
+    margin-left: 6rem ;
+}
+
+footer h2 {
+    color: black;
+    padding-bottom: 2rem;
+}
+
+footer p{
+    color: black;
+    padding-bottom: 2rem;
+}
+
+footer a{
+    color: black;
+}
