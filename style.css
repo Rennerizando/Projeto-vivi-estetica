@@ -274,7 +274,7 @@ footer a{
 }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 400px){
     header{
         display: none;
     }
@@ -306,20 +306,22 @@ footer a{
     height: 25vh;
     background-color: rgb(255, 221, 205);
 }
+
 .formas img{
     margin-left: 8px;
-    width: 5rem;
+    width: 2.5rem;
     padding-right: rem;
     border-radius: 6px;
 
 }
 
+
 .caixa-formas{
    
     margin-top: 2rem;
     background-color: rgb(255, 255, 255);
-    width: 6rem;
-    height: 16vh;
+    width: 3.5rem;
+    height: 8vh;
     border-radius: 12px;
 }
 
@@ -461,5 +463,205 @@ footer i{
     font-size: 15px;
 }
 
-/* FINAL DO MEU FOOTER */
+
+@media screen and (max-width: 300px){
+    header{
+        
+        display: none;
+    }
+
+    .sessao1{
+        width: 380px;
+        transition: all .5s;
+        background-image:linear-gradient(rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.205)), url(/Sobrancelhasmobile.jpg);
+    
+    }
+
+    .titulo h2{
+        font-size: 15px;
+    }
+    .titulo h3{ 
+        font-size: 18px;
+    }
+
+    .btn-saibamais{
+        width: 10rem;
+    }
+
+    /* inicio DO MEU section2 */
+.formas{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right:15px;
+    width: 400px;
+    height: 20vh;
+    background-color: rgb(255, 221, 205);
+}
+
+.formas img{
+    margin-left: 8px;
+    width: 2.5rem;
+    border-radius: 6px;
+
+}
+
+
+.caixa-formas{
+   
+    margin-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    width: 3.5rem;
+    height: 8vh;
+    border-radius: 12px;
+}
+
+.caixa-btn{
+   margin-left: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    width: 15vw;
+    height: 2vh;
+    background: rgb(255, 228, 228);
+    transition: all .3s;
+}
+
+.caixa-btn:hover{
+    transition: all .3s;
+    background: rgb(221, 198, 198);
+}
+
+.caixa-btn a{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-btn a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.formas h2{
+    margin-top: -5px;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+
+.valores{
+    width: 400px;
+    background-color: rgb(255, 187, 148);
+}
+
+.container{
+
+display: flex;
+flex-direction: row;
+text-align: center;
+background-color: rgb(255, 187, 148);
+height: 40vh;
+max-width: 100%;
+
+
+}
+.caixa{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+padding: 2vw 0vw 0vw 0vw;
+}
+.caixa h2{
+
+color: rgb(34, 34, 34);
+font-size: 30px;
+}
+
+.caixa .visao{
+    margin-top: -100px;
+}
+
+.caixa p{
+color: rgb(53, 53, 53);
+padding-top: 10px;
+text-align: left;
+
+}
+
+/* INICIO DO MEU FOOTER */ 
+
+
+footer{
+    width: 400px;
+    display: flex;
+    height: 20vh;
+    background-color: rgb(255, 231, 204);
+}
+
+.logo-footer{
+    opacity: 0.80;
+ 
+}
+.d-block .w-100{
+    ;
+}
+.logo-footer img{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    margin: 8% 25%;
+}
+
+.contato-rodape{
+    text-align: left;
+    
+    width: 70%;
+}
+
+.texto-rodepe{
+    margin-top: 1rem;
+    margin-left: 2rem ;
+}
+
+footer h2 {
+    color: black;
+    padding-bottom: 0.5rem;
+}
+
+footer p{
+    color: black;
+}
+
+footer i{
+    color: black;
+}
+
+.contato-a-rodape a{
+    display: none;
+    text-decoration: none;
+    color: rgb(255, 231, 204);
+}
+
+.icon-mobile{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+.contato-a-rodape{
+    display: flex;
+    margin-left: -50%;
+    margin-top: 0vh;
+    flex-direction: row;
+}
+
+.local{
+    font-size: 15px;
+}
 /* FINAL DO MEU FOOTER */ 
