@@ -50,7 +50,7 @@ li a:hover{
 .sessao1{
   
     overflow: hidden;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.205)), url(Sobrancelhas-perfeitas.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.205)), url(/Sobrancelhas-perfeitas.jpg);
     height: 40vh;
 }
 
